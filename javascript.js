@@ -41,7 +41,7 @@ function computerPlay(){
             c++;
         }
 
-        marcador.textContent= "player:"+p+" // computer"+ c;
+        marcador.textContent= "player ="+ p +"_____________computer="+c;
         if(p==5 || c==5){
             p=0;
             c=0;
@@ -61,8 +61,9 @@ function computerPlay(){
 
     const demo=document.querySelector('#demo');
     const marcador=document.createElement('marcador');
+    marcador.classList.add=("display-1");
     marcador.style.color='white';
-    marcador.textContent= "player:0"+ "computer:0";
+    marcador.textContent= "player = 0"+ "_____________computer= 0";
     demo.appendChild(marcador);
     let c=0;
     let p=0;
