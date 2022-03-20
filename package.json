@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "name": "rock-papel-tijera",
+  "description": "",
+  "version": "1.0.0",
+  "main": "javascript.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plcarmona/Rock-Papel-Tijera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plcarmona/Rock-Papel-Tijera/issues"
+  },
+  "homepage": "https://github.com/plcarmona/Rock-Papel-Tijera#readme"
+}
